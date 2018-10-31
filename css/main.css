@@ -82,14 +82,14 @@ input {
 	padding: .5rem;
 }
 
-input:required:invalid, input:focus:invalid {
+input:invalid, input:required:invalid, input:focus:invalid {
   background-image: url(../images/notok.svg);
   background-position: right center;
   background-repeat: no-repeat;
   background-size: 1rem;
 }
 
-input:required:valid {
+input:valid, input:required:valid {
   background-image: url(../images/ok.svg);
   background-position: right center;
   background-repeat: no-repeat;

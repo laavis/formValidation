@@ -21,19 +21,26 @@
   <form>
     <div class="form-group">
       <label for="fname">First Name</label>
-      <input type="text" name="fname" value="" required>
+      <input type="text" name="fname" required>
+
       <label for="lname">Last Name</label>
-      <input type="text" name="lname" value="" required>
+      <input type="text" name="lname" required>
+
       <label for="email">Email</label>
-      <input type="email" name="email" value="" required>
+      <input type="email" name="email" required>
+
       <label for="phone">Phone</label>
-      <input type="tel" name="phone" value="" required>
+      <input type="tel" name="phone" pattern="^\+358[0-9]{6,13}" required>
+
       <label for="addr">Address</label>
-      <input type="text" name="addr" value="" required>
+      <input type="text" name="addr">
+
       <label for="pcode">Postal Code</label>
-      <input type="number" name="pcode" value="" required>
+      <input type="text" name="pCode" pattern="[0-9]{5}" title="Enter five number postal code">
+
       <label for="passwd">Password</label>
-      <input type="text" name="passwd" value="" required>
+      <input type="password" name="pwd" required>
+
       <button type="submit" class="submit">Submit</button>
     </div>
   </form>
