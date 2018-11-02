@@ -96,15 +96,18 @@ input:valid, input:required:valid {
   background-size: 1rem;
 }
 
+#submit, #error_msg, .task_select {
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 600;
+}
+
 #submit {
   width: 100%;
   padding: 1rem;
   background: #4668EC;
   border: none;
-  border-radius: 2px;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
-  color: #fff;
-  font-weight: 600;
 }
 
 
@@ -112,12 +115,15 @@ input:valid, input:required:valid {
   background: #DA3C3C;
   margin: 1rem 0;
   padding: 1rem;
-  color: white;
   text-align: center;
-  border-radius: 2px;
-  font-weight: 600;
   display: none;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+}
+
+.task_select {
+  background: #4668EC;
+  padding: 1rem;
+  margin: 1rem;
+  text-decoration: none;
 }
 
 
